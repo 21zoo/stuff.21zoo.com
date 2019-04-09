@@ -1,0 +1,21 @@
+baseURL: "https://stuff.21zoo.com/"
+title: "21zoo Labs - Assorted Stuff"
+footnoteReturnLinkContents: "↩"
+theme: "ezhil"
+publishDir: "stuff"
+rssLimit: 20
+paginate: 50
+disableHugoGeneratorInject: true
+googleAnalytics: "UA-109218022-1"
+enableRobotsTXT: true
+permalinks:
+  post: /:year/:month/:title/
+params:
+  AuthorName: "21zoo"
+  SidebarRecentLimit: 5
+  copyright: "Lovingly made in the (212)"
+  enableGoogleAnalytics: true
+  archive: All Posts
+  RecentPostsCount: 100
+taxonomies:
+  tag: tags

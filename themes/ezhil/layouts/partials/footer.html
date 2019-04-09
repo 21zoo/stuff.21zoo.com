@@ -1,0 +1,21 @@
+<div class="footer wrapper">
+<p class="small-footer">
+    Other projects by us: <br>
+    <a href="https://remotejobsdirect.com/ref/stuff" target="_blank" style="color: black">Remote Jobs Direct - Remote jobs sent directly to your inbox.</a>
+    <br>
+    <a href="https://getswitchboardapp.com/" target="_blank" style="color: black">Switchboard - Toll-free phone numbers for your Shopify Store. </a>
+</p>
+</div>
+
+<div class="footer wrapper">
+
+    <p class="small-footer">
+    {{ with .Site.Params.copyright }}
+        {{ . | markdownify }}
+    {{ else }}
+       © Copyright {{ now.Format "2006"}} <i class="fa fa-heart" aria-hidden="true"></i> {{ .Site.Params.name }}
+    {{ end }}
+    </p>
+
+</div>
+

@@ -1,0 +1,31 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: build
+    image: "golang:1"
+    environment:
+      HUGO_VERSION: 0.54.0
+    commands:
+      - wget -nv https://github.com/gohugoio/hugo/releases/download/v$${HUGO_VERSION}/hugo_$${HUGO_VERSION}_Linux-64bit.tar.gz && tar xvfz hugo_$${HUGO_VERSION}_Linux-64bit.tar.gz
+      - mv hugo /usr/local/bin/
+      - hugo version
+      - hugo
+    when:
+      event: push
+      branch: master
+
+
+  - name: deploy
+    image: appleboy/drone-scp
+    settings:
+      host:
+        from_secret: ssh_host
+      username: deploy
+      target: /var/www/html/
+      source: stuff
+      key:
+        from_secret: ssh_key
+    when:
+      event: push
+      branch: master
