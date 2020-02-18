@@ -145,6 +145,11 @@ ul {
 	margin-bottom: 10px;
 }
 
+pre {
+background: #efefef;
+padding: 10px;
+}
+
 .highlight pre {
     margin-bottom: 0;
 	margin-top: 0;
