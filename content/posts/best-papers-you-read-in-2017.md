@@ -2,7 +2,6 @@
 title: "What was the best CS paper you read in 2017?"
 date: 2018-02-09T23:24:15-03:00
 draft: false
-description: ""
 tags: [papers]
 ---
 

@@ -8,7 +8,7 @@ tags: [golang,go,ssh]
 
 To make `go get github.com/user/repo` use ssh instead of https run this line:
 
-```
+```shell
 git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 ```
 

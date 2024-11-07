@@ -2,7 +2,6 @@
 title: "Run CloudSQL proxy with docker-compose"
 date: 2022-07-11T18:50:04-04:00
 draft: false
-description: ''
 tags: [gcp,cloudsql,sql,proxy]
 ---
 Using CloudSQL proxy allows you to access your CloudSQL isntance without exposing its port to the big bad internet.

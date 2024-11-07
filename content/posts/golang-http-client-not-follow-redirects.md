@@ -6,7 +6,7 @@ description: "code snippet"
 tags: [golang,go,http]
 ---
 
-```
+```golang
 client: &http.Client{
     CheckRedirect: func(req *http.Request, via []*http.Request) error {
         return http.ErrUseLastResponse

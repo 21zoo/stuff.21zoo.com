@@ -10,7 +10,7 @@ tags: [go,golang,dns]
 Save this snippet in a file and run with `go run .` or `go run . google.com`
 
 
-```
+```golang
 package main
 
 import (
@@ -37,7 +37,7 @@ func main() {
 
 Sample output:
 
-```
+```shell
 $ go run . stuff.21zoo.com
 stuff.21zoo.com has address 104.31.85.183
 stuff.21zoo.com has address 104.31.84.183

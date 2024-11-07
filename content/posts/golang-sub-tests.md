@@ -8,7 +8,7 @@ tags: [golang,go,linux,windows,test]
 
 t.Run() is a great way to improve table-driven tests and give them names:
 
-```
+```golang
 func TestFunc(t *testing.T) {
     tests := map[string]struct {
         input   string

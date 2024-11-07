@@ -8,7 +8,7 @@ tags: [golang,go,linux,windows,test]
 You can run Golang tests in parallel by calling `t.Parallel()` in the very beginning of a test function.
 For example:
 
-```
+```golang
 func TestRunThisInParallel(t *testing.T) {
   t.Parallel()
   // the actual test

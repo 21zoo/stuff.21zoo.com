@@ -6,17 +6,17 @@ tags: [golang,go,linux,windows,test]
 ---
 
 For Linux desktop:
-```
+```shell
 $ GOOS=linux GOARCH=amd64 go build
 ```
 
 For MacOS:
-```
+```shell
 $ GOOS=darwin GOARCH=arm64 go build
 ```
 
 For old Windows desktop:
 
-```
+```shell
 $ GOOS=windows GOARCH=386 go build
 ```

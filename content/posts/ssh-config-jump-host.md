@@ -8,8 +8,9 @@ Configure SSH to use a Jump Host for ssh connections:
 
 `[ Laptop ] --ssh--> [ Jump Host ] --ssh--> [ Host ]`
 
-<br>
-~/.ssh/config
+
+`~/.ssh/config`
+
 ```
 Host jump-host
   User jump-host-username

@@ -2,7 +2,6 @@
 title: "Use Gitea as a Auth Provider for oauth2_proxy"
 date: 2020-02-17T18:50:04-04:00
 draft: false
-description: ''
 tags: [gitea,oauth2_proxy]
 ---
 
